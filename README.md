@@ -1,7 +1,7 @@
-<img src="imagens/Personagem.png" align="right" width="300">
-# Curso de HTML5 e CSS3
-Curso de 200 horas sobre html e css (incompleto) do professor[Gustavo Guanabara](https://github.com/gustavoguanabara)
 
+# Curso de HTML5 e CSS3
+Curso de 200 horas sobre html e css (incompleto) professor [Gustavo Guanabara](https://github.com/gustavoguanabara)
+<img src="imagens/Personagem.png" align="right" width="200">
 * [Site do curso em vídeo](cursoemvideo.com)
 * [Código disponível para os exercícios](https://github.com/gustavoguanabara/html-css/tree/master/exercicios)
 * [Execute os exercícios aqui](https://gustavoguanabara.github.io/html-css/exercicios/)
