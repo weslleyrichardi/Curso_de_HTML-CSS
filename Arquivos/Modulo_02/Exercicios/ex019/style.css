@@ -1,0 +1,39 @@
+@charset "UTF";
+/* SITE */
+body {
+    background-color: #d6fde9;
+}
+
+/* Titulos */
+h1 {
+    color: #1e402f;
+}
+
+h1#principal {
+    text-align: center;
+    background-color:  #3c805e;
+    color: white;
+}
+
+/* sub-titulo*/
+h2 {
+    color: rgb(51, 77, 49);
+}
+
+.basico {
+    color: #ff0000;
+}
+
+.intermediario {
+    color: #80793e;
+}
+
+.avancado {
+    color: #803c3c;
+}
+
+/* DESTAQUE */
+
+.destaque {
+    background-color: #c5c56070;
+}
