@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+        }
+
+        div#tabela {
+            margin: auto;
+            align-content: center;
+            height: 500px;
+            width: 500px;
+            background-color: aquamarine;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+        }
+
+        table {
+            
+            border-collapse: collapse;
+        }
+        
+        th, td, caption{
+            text-align: center;
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .disciplina, .mediacalculo {
+            text-align: left;
+        }
+
+        thead, tfoot, .mediacalculo {
+            background-color: lightgray;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="tabela">
+        <Table>
+            <caption style="border-radius: 10px 10px 0px 0px;"><strong>Notas - Weslley - 2024</strong></caption>
+            <thead>
+                <tr>
+                    <th scope="col" rowspan="2">Área</th>
+                    <th scope="col" rowspan="2">Disciplinas</th>
+                    <th scope="colgroup" colspan="2">Notas</th>
+                    <th scope="col" rowspan="2">Média</th>
+                </tr>
+                <tr>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="rowgroup" rowspan="4" class="disciplina">Exatas</th>
+                    <th scope="row" class="disciplina">Matemática</th>
+                    <td>10.0</td>
+                    <td>10.0</td>
+                    <td>10.0</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="disciplina">Física</th>
+                    <td>10.0</td>
+                    <td>10.0</td>
+                    <td>10.0</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="disciplina">Química</th>
+                    <td>10.0</td>
+                    <td>10.0</td>
+                    <td>10.0</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="disciplina">Biologia</th>
+                    <td>10.0</td>
+                    <td>10.0</td>
+                    <td>10.0</td>
+                </tr>
+                <tr>
+                    <th scope="row" colspan="4" class="mediacalculo">Média de exatas</th>
+                    <td style="background-color: lightgray;">10</td>
+                </tr>
+                <tr>
+                    <th scope="rowgroup" rowspan="2" class="disciplina">Humanas</th>
+                    <th scope="row" class="disciplina">História</th>
+                    <td>10.0</td>
+                    <td>10.0</td>
+                    <td>10.0</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="disciplina">Geografia</th>
+                    <td>10.0</td>
+                    <td>10.0</td>
+                    <td>10.0</td>
+                </tr>
+                <tr>
+                    <th scope="row" colspan="4" class="mediacalculo">Média Humanas</th>
+                    <td style="background-color: lightgray;">10</td>
+                </tr>
+            </tbody>
+        </Table>
+    </div>
+</body>
+</html>
