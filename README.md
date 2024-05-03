@@ -1,8 +1,8 @@
 # Curso de HTML5 e CSS3
-Curso de 200 horas sobre html e css **(incompleto)**. Professor [Gustavo Guanabara](https://github.com/gustavoguanabara)
+Curso de 200 horas sobre HTML e CSS com o professor [Gustavo Guanabara](https://github.com/gustavoguanabara) na plataforma do [Curso Em Vídeo](https://www.cursoemvideo.com/).
 <img src="imagens/Personagem.png" align="left" width="200">
-* [Minha rede social do instagram](https://www.instagram.com/weslley_richardi/?__coig_restricted=1)
-* [Meu perfil do linkedin](https://www.linkedin.com/in/weslley-richard/)
+* [Instagram Profissional](https://www.instagram.com/dev.richardi/?__coig_restricted=1)
+* [Perfil do linkedin](https://www.linkedin.com/in/weslley-richard/)
 * [Site do curso em vídeo](cursoemvideo.com)
 * [Código disponível para os exercícios](https://github.com/gustavoguanabara/html-css/tree/master/exercicios)
 * [Execute os exercícios aqui](https://gustavoguanabara.github.io/html-css/exercicios/)
